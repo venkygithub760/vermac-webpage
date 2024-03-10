@@ -1,0 +1,24 @@
+.background {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  color: black;
+  margin-inline-start: 30px;
+}
+.paragraph1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.paragraph2 {
+  font-size: 30px;
+}
+.button1 {
+  border-radius: 20px;
+  background-color: rgb(130, 14, 14);
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  border: 0px;
+}

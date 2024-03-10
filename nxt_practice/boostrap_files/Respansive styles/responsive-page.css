@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.card {
+  background-image: url(https://img.freepik.com/premium-photo/photo-branches-leaves-desktop-wallpaper-backgrounds_763111-16240.jpg?w=1060);
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  text-align: center;
+  padding: 30px;
+}
+.navigation .a {
+  color: orange;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px;
+}
+.navigation .a:hover {
+  background: white;
+}
+.search {
+  padding: 4px 18px;
+  border-radius: 10px;
+  border-color: rgb(250, 250, 250);
+  background: rgb(219, 219, 250);
+  border-width: 0px;
+}
+.main-content {
+  max-width: 650px;
+  margin: 100px;
+  justify-content: flex-start;
+  text-align: left;
+}
+.main-heading {
+  color: rgb(248, 185, 67);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: oblique;
+  letter-spacing: 2px;
+}
+.paragraph {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: rgb(241, 240, 239);
+  word-spacing: 10px;
+}
+.button {
+  color: rgb(235, 156, 66);
+  background: rgb(65, 64, 64);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-size: 15px;
+  border-width: 0px;
+  transition: 0.4s;
+  transition-property: background;
+  transform: scale(1.5px);
+}
+.button:hover {
+  background: rgb(107, 108, 106);
+}
+.meadia-icons a {
+  position: relative;
+  transform: scale(1.5px);
+  color: rgb(131, 125, 123);
+  font-size: 40px;
+}
