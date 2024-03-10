@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+}
+div{
+    border: 3px solid crimson;
+    width: 50%;
+    margin: auto;
+    animation-name: changeBackground;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    perspective: 1000px;
+}
+div img{
+    width: 30%;
+    animation-name: my-transform;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.animated{
+    position: relative;
+    animation-name: walking;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my-transform {
+    from{
+        transform: scale3d(1,1,1)
+    }
+    to{
+        transform: scale3d(2,2,3)
+    }
+}
+@keyframes changeBackground{
+    0%{
+        background-color: yellow;
+    }
+    12%{
+        background-color: blue;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: black;
+    }
+    75%{
+        background-color: maroon;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+@keyframes walking {
+    from{
+        left:0px;
+    }
+    to{
+        left: 50%;
+    }
+}

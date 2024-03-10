@@ -1,0 +1,85 @@
+.card {
+    background-image: url('https://img.freepik.com/free-photo/city-financial-district-glows-blue-twilight-generated-by-ai_188544-10697.jpg?t=st=1690514049~exp=1690517649~hmac=54bd4711170f84fc1db05fea4347f8e9a2c50378d5f083676a907647ccd6371d&w=1060');
+    text-align: center;
+    color: white;
+    background-size: cover;
+    height: 100vh;
+}
+.button1 {
+    background-color: orangered;
+    padding: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    border-radius: 15px;
+    color: white;
+}
+.main-heading {
+    height: 10vh;
+    font-size: 40px;
+}
+.navigation {
+    height: 20vh;
+}
+.paragraph {
+    height: 15vh;
+    font-size: 20px;
+}
+.button2 {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    border-radius: 15px;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image {
+    font-size: small;
+    justify-content: flex-end;
+}
+.navigation a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-style: italic;
+}
+.container {
+    position: relative;
+}
+.container img {
+    position: absolute;
+    top: 20px; 
+    left: 25px; 
+    width: 70px; 
+    height: 90px;
+}
+.navbar .search input{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.navbar .search i{
+    border: none;
+    color:white;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: orangered;
+}
+.search{
+    padding: 15px;
+}
+
+.body {
+    height: 10vh;
+}

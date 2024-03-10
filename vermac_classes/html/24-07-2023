@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th>FULL NAME:</th>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th>PASSWORD:</th>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <input type="radio">
+            </tr>
+            <tr>
+                <input type="checkbox">
+            </tr>
+            <tr>
+                <input type="email">
+            </tr>
+            <tr>
+                <input type="url">
+            </tr>
+            <tr>
+            <input type="file" id="">
+            </tr>
+            <tr>
+                <th><select name="" id=""></select></th>
+                <select>
+                    <option>vishaka</option>
+                    <option>vijayawada</option>
+                    <option>hyderabad</option>
+                </select>
+            </tr>
+            <tr>
+                <th>Date of birth</th>
+                <input type="date">
+            </tr>
+            <tr>
+                <input type="submit" value="regular">
+            </tr>
+            <tr>
+                <input type="reset" value="clear">
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+    
+    
+    
+    

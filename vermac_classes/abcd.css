@@ -1,0 +1,28 @@
+/* styles.css */
+.three-dots-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .three-dots-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .three-dots-button:focus {
+    outline: none;
+  }
+  
+  /* Centering the button in the viewport for demonstration purposes */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  

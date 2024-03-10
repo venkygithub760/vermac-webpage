@@ -1,0 +1,17 @@
+.card {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png);
+    background-size: 80vw;
+    height: 100vh;
+    color: white;
+    margin: auto;
+    width: 20%;
+}
+.todo {
+    text-align: center;
+}
+.paragraph {
+    text-decoration: underline;
+}
+.button {
+    background-color: orange;
+}
